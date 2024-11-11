@@ -1,0 +1,57 @@
+name: finals
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.0.0
+  path: ^1.8.0
+  font_awesome_flutter: ^10.2.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - asset/image/1.JPG
+    - asset/image/2.JPG
+    - asset/image/3.JPG
+    - asset/image/4.JPG
+    - asset/image/5.JPG
+    - asset/image/6.JPG
+    - asset/image/7.JPG
+    - asset/image/8.JPG
+    - asset/image/9.JPG
+    - asset/image/10.JPG
+    - asset/image/11.JPG
+    - asset/image/12.JPG
+    - asset/image/13.JPG
+    - asset/image/14.JPG
+    - asset/image/15.JPG
+    - asset/image/16.JPG
+    - asset/image/17.JPG
+    - asset/image/18.JPG
+    - asset/image/header.JPG
+
+fonts:
+  - family: 'Basteleur'
+    fonts:
+      - asset: asset/font/Basteleur-Bold.ttf
+  - family: Playfair
+    fonts:
+      - asset: asset/font/PlayfairDisplay-VariableFont_wght.ttf
